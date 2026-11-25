@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EduNique Membership Plans (mockup)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/home.css">
+<link rel="stylesheet" href="assets/membership.css">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; background: #09318D; }
+h1, h2, h3, p { margin-top: 0; }
+.en-v2a .va-h2, .en-v2a h3 { font-family: "Baloo 2", "Trebuchet MS", sans-serif; font-weight: 800; }
+.en-v2a.va-plans { min-height: 100vh; }
+</style>
+</head>
+<body>
+<section class="en-v2a va-plans" id="membership" aria-labelledby="plans-h">
+<div class="va-wrap">
+  <div class="vp-head">
+    <div>
+      <span class="vp-kicker">Membership plans</span>
+      <h2 class="va-h2 vp-h2" id="plans-h">One membership for every stage. <em>Step by step.<svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 14 C 60 2, 110 20, 160 10 S 260 4, 296 12"/></svg></em></h2>
+    </div>
+    <p class="va-lead">School subjects, skill courses and brain enhancement programmes in one plan, with teachers and a mentor who watch your child's progress. Pick your child's age to see what the plan includes.</p>
+  </div>
+
+  <ul class="vp-stairs" role="list" aria-label="Choose a plan by age">
+    <li class="vp-step" style="--lift:0px"><button type="button" class="vp-step-btn" data-plan="0" aria-pressed="true" aria-controls="vp-detail"><span class="vp-step-num">1</span><span class="vp-step-age">Ages 4 to 6</span><span class="vp-step-name">Ramp Up Scores</span><span class="vp-step-price">from <b data-count="3500">₹3,500</b> /month</span><span class="vp-step-bar"><i style="--fill:43%"></i></span><span class="vp-step-bar-l">600 sessions</span></button></li>
+    <li class="vp-step" style="--lift:26px"><button type="button" class="vp-step-btn" data-plan="1" aria-pressed="false" aria-controls="vp-detail"><span class="vp-step-num">2</span><span class="vp-step-age">Ages 7 to 8</span><span class="vp-step-name">Alphaers</span><span class="vp-step-price">from <b data-count="5000">₹5,000</b> /month</span><span class="vp-step-bar"><i style="--fill:57%"></i></span><span class="vp-step-bar-l">800 sessions</span></button></li>
+    <li class="vp-step" style="--lift:52px"><button type="button" class="vp-step-btn" data-plan="2" aria-pressed="false" aria-controls="vp-detail"><span class="vp-step-num">3</span><span class="vp-step-age">Ages 9 to 10</span><span class="vp-step-name">Adroitness</span><span class="vp-step-price">from <b data-count="7000">₹7,000</b> /month</span><span class="vp-step-bar"><i style="--fill:71%"></i></span><span class="vp-step-bar-l">1,000 sessions</span></button></li>
+    <li class="vp-step" style="--lift:78px"><button type="button" class="vp-step-btn" data-plan="3" aria-pressed="false" aria-controls="vp-detail"><span class="vp-step-num">4</span><span class="vp-step-age">Ages 11 to 12</span><span class="vp-step-name">Warriors</span><span class="vp-step-price">from <b data-count="9000">₹9,000</b> /month</span><span class="vp-step-bar"><i style="--fill:86%"></i></span><span class="vp-step-bar-l">1,200 sessions</span></button></li>
+    <li class="vp-step" style="--lift:104px"><button type="button" class="vp-step-btn" data-plan="4" aria-pressed="false" aria-controls="vp-detail"><span class="vp-step-num">5</span><span class="vp-step-age">Ages 13 and up</span><span class="vp-step-name">Checkmaters</span><span class="vp-step-price">from <b data-count="11000">₹11,000</b> /month</span><span class="vp-step-bar"><i style="--fill:100%"></i></span><span class="vp-step-bar-l">1,400 sessions</span></button></li>
+  </ul>
+
+  <article class="vp-detail" id="vp-detail" aria-live="polite">
+    <div class="vp-d-left">
+      <span class="vp-d-age" data-f="age">Ages 4 to 6</span>
+      <h3 class="vp-d-name" data-f="name">Ramp Up Scores</h3>
+      <p class="vp-d-for" data-f="for">The first step: three school subjects, early skill courses and brain programmes for young learners.</p>
+      <span class="vp-price"><small>from ₹</small><strong data-f="price">3,500</strong><small>/month</small></span>
+      <div class="vp-d-ctas">
+        <a class="va-btn va-btn-pink va-btn-sm" data-f="href" href="https://skillioner-new.local/product/ramp-up-scores-100-sessions/">Enroll now</a>
+        <a class="va-btn va-btn-white va-btn-sm" href="https://skillioner-new.local/contact-us/">Book a demo</a>
+      </div>
+    </div>
+    <div class="vp-d-right">
+      <ul class="vp-stats" role="list">
+        <li class="vp-stat"><b data-f="sessions">600</b><span>sessions</span></li>
+        <li class="vp-stat"><b data-f="tuitions">3</b><span>subject tuitions</span></li>
+        <li class="vp-stat"><b data-f="brain">2</b><span>brain components mapped</span></li>
+        <li class="vp-stat"><b data-f="team">4 + 1</b><span>teachers + mentor</span></li>
+      </ul>
+      <ul class="vp-list" data-f="list" role="list">
+        <li><span><strong>AI-mapped</strong> programme, customised to your child</span></li>
+        <li><span><strong>50,000 worksheets</strong>, 25 free books and 50 audio story books</span></li>
+        <li><span><strong>3 skill development courses</strong> and 2 brain enhancement programmes</span></li>
+        <li><span><strong>Monthly counselling</strong> with a Brain Skill Function Score</span></li>
+      </ul>
+    </div>
+  </article>
+
+  <div class="vp-club">
+    <span class="vp-club-badge">Skills only</span>
+    <div>
+      <h3>Skill Club Subscription</h3>
+      <p>21 skills in one course, with 60 online classes a year led by a mentor, for ages 4 to 18. <b>From ₹2,500 a year.</b></p>
+    </div>
+    <a class="va-btn va-btn-white va-btn-sm" href="https://skillioner-new.local/product/skill-club-subscription/">See Skill Club</a>
+  </div>
+  <p class="vp-note">Prices are starting prices. Our team calls you within 24 hours of enrolment to fix class timings and the batch.</p>
+</div>
+</section>
+
+<script src="assets/gsap.min.js"></script>
+<script src="assets/ScrollTrigger.min.js"></script>
+<script src="assets/membership.js"></script>
+</body>
+</html>
